@@ -19,7 +19,7 @@ abstract entity ManagedObject {
 			odata.on.insert: #now
 		);
 	};
-	@Core.Computed
+	@( Core.Computed )
 	modified: {
 		byUser: User @(
 			title: '{i18n>changedBy}',
