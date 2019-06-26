@@ -8,7 +8,7 @@ abstract entity BusinessObject : ManagedObject {
 }
 
 abstract entity ManagedObject {
-	@( Core.Computed )
+	@( Core.Computed ) 
 	created: {
 		byUser: User @(
 			title: '{i18n>createdBy}',
